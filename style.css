@@ -1,0 +1,23 @@
+.container {
+  padding-top: 5rem;
+}
+.dropdown .dropdown-menu {
+  display: none;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0em;
+}
+.dropdown-item:hover {
+  background-color: #bde6f1;
+}
+@media screen and (min-width: 769px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 0.19em;
+  }
+}
